@@ -21,12 +21,12 @@ achieve company goals.
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### Skills 
 
-• HTML5, CSS3
-• JavaScript Basics
-• Git, GitHub
-• VS Code
-• Figma
-• Adobe Photoshop
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* VS Code
+* Figma
+* Adobe Photoshop
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### Code example 
@@ -50,9 +50,9 @@ Belarusian State University • Minsk, Belarus
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### ELanguages
 
-• Russian - native
-• Belarussian - C2
-• English - B2
-• Polish - B1
-• German - A1
+* Russian - native
+* Belarussian - C2
+* English - B2
+* Polish - B1
+* German - A1
 
