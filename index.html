@@ -3,11 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Volha Levantsevich</h1>
-    <h2>Junior Frontend Developer</h2>
-    <h3>Contact information</h3>
+    <div class="page-container">
+        <header>
+            <div class="contacts">
+                <h1>Volha Levantsevich</h1>
+                <h2>Junior Frontend Developer</h2>
+                <nav>
+                    <a href="">Phone: +48571609301</a>
+                    <a href="">E-mail: o.levantsevich@gmail.com</a>
+                    <a href="">GitHub: olevantsevich</a>
+                </nav>
+            </div>
+            <img src="40-71.jpg" alt="Photo">
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="main-information">
+                    <div>
+                        <h2>Summary</h2>
+                        <div class="text">A hardworking and reliable person is looking for a full-time position that offers professional challenges, where can utilize excellent time management, problem-solving and interpersonal skills. A quick learner and a great team worker, always available and ready to help the team to achieve company goals.</div>
+                    </div>
+                    <div>
+                        <h2>Skills</h2>
+                        <ul class="text">
+                            <li>HTML5, CSS3</li>
+                            <li>JavaScript Basics</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                            <li>Figma</li>
+                            <li>Adobe Photoshop</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="add-information">
+                    <div>
+                        <h2>Code example</h2>
+                        <div class="text">
+                            <div>let arr = [1,2,3,4,"fdsf",34,1243,"gfdfkjoe2"];</div>
+                            <div>arr = arr.filter(function(item){</div>
+                            <div>return typeof item === 'number';</div>
+                            <div>});</div>
+                            <div>console.log(arr);</div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Education</h2>
+                        <div class="text">Bachelor of Arts, Linguistics Belarusian State University • Minsk, Belarus</div>
+                    </div>
+                    <div>
+                        <h2>Languages</h2>
+                        <ul class="text">
+                            <li>Russian - native</li>
+                            <li>Belarussian - C2</li>
+                            <li>English - B2</li>
+                            <li>Polish - B1</li>
+                            <li>German - A1</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <nav class="nav-footer">
+                    <a href="https://github.com/olevantsevich">GitHub</a>
+                    <a href="">2024</a>
+                    <a href="https://rs.school/courses/javascript-ru">RS School</a>
+                </nav>
+                <img class="logo" src="data:image/png;base64,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" alt="RSschool">
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
