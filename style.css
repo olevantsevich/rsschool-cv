@@ -28,7 +28,7 @@ header {
     width: 100%;
     height: 300px;
     justify-content: center;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     background-color: rgb(81, 78, 78);
     color: #FFF;
     align-items: center;
@@ -53,4 +53,42 @@ a {
     flex-direction: column;
     margin-right: 320px;
     gap: 15px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 1360px;
+    justify-content: center;
+    gap: 90px;
+    background-color: rgb(249, 215, 244);
+}
+.main-information, .add-information  {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 90px;
+    justify-content: center;
+    align-self: flex-start;
+    gap: 60px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.text {
+   line-height: 30px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    background-color: rgb(81, 78, 78);
+    color: #FFF;
 }
