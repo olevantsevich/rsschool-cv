@@ -92,3 +92,22 @@ footer {
     background-color: rgb(81, 78, 78);
     color: #FFF;
 }
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 130px;
+}
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
